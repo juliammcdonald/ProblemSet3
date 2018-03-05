@@ -1,0 +1,36 @@
+AccountDriver Testing
+Julia McDonald (jmcdona6)
+
+Checking Account Testing:
+Account number: 1000000
+Balance: $500
+Minimum Balance: 100.0
+Account number: 1000000
+Balance: $650
+Minimum Balance: 100.0
+Account number: 1000000
+Balance: $550
+Minimum Balance: 100.0
+Account number: 1000000
+Balance: $-100
+Minimum Balance: 100.0
+
+Savings Account Testing:
+Account number: 1000001
+Balance: $1000
+Interest Rate: 2.0%
+Account number: 1000001
+Balance: $1250
+Interest Rate: 2.0%
+Account number: 1000001
+Balance: $1200
+Interest Rate: 2.0%
+Account number: 1000001
+Balance: $1202
+Interest Rate: 2.0%
+Account number: 1000001
+Balance: $1204
+Interest Rate: 2.0%
+Account number: 1000001
+Balance: $1206.01
+Interest Rate: 2.0%

@@ -1,0 +1,9 @@
+StringOps Testing
+Julia McDonald (jmcdona6)
+
+hello and olehl are anagrams.
+hello and hello are not anagrams.
+hello and ehllo are anagrams.
+helloo and hello are not anagrams.
+listen and silent are anagrams.
+woman and owman are anagrams.

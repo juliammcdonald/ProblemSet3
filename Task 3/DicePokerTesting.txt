@@ -1,0 +1,53 @@
+DicePoker Testing
+Xinhui Xu (xxu2) and Julia McDonald (jmcdona6)
+
+Good evening, Dave!
+Everything's running smoothly. How are you?
+I'm completely operational and all my circuits are functioning perfectly.
+Would you like to play a game of Dice Poker? I play very well.
+
+*** ROUND 1
+Computer rolled 2 3 4 3 3 Three of a kind
+Dave rolled 3 5 2 1 2 One pair
+
+*** ROUND 2
+Computer rolled 3 4 6 3 4 Two pairs
+Dave rolled 6 1 1 3 5 One pair
+
+*** ROUND 3
+Computer rolled 2 1 6 5 2 One pair
+Dave rolled 5 4 1 6 6 One pair
+
+*** ROUND 4
+Computer rolled 1 6 3 6 1 Two pairs
+Dave rolled 4 2 4 2 5 Two pairs
+
+*** ROUND 5
+Computer rolled 5 6 4 2 3 Nothing
+Dave rolled 2 4 6 2 4 Two pairs
+
+The game was won by the Computer with a score of 2 to 1 in 5 rounds.
+Thank you for a very enjoyable game!
+Good evening, Julia!
+Everything's running smoothly. How are you?
+I'm completely operational and all my circuits are functioning perfectly.
+Would you like to play a game of Dice Poker? I play very well.
+
+*** ROUND 1
+Computer rolled 4 5 5 1 2 One pair
+Julia rolled 2 6 2 5 4 One pair
+
+*** ROUND 2
+Computer rolled 5 6 1 5 3 One pair
+Julia rolled 4 6 2 2 3 One pair
+
+*** ROUND 3
+Computer rolled 5 4 6 2 3 Nothing
+Julia rolled 1 3 6 1 3 Two pairs
+
+*** ROUND 4
+Computer rolled 6 1 1 5 3 One pair
+Julia rolled 6 1 4 5 2 Nothing
+
+The game was won by the Computer with a score of 2 to 1 in 4 rounds.
+Thank you for a very enjoyable game!

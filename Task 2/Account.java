@@ -1,0 +1,52 @@
+import java.text.DecimalFormat;
+/**
+ * FILE NAME: Account.java
+ * WHAT: This class is an abstract parent class for classes CheckingAccount and SavingsAccount. It defines
+ * a generic account constructor as well as methods to deposit money and to convert an account to a String.
+ * It contains an abstract method to withdraw money from an account (to be implemented in the child classes).
+ * WHO: Julia McDonald (jmcdona6)
+ * WHEN: September 24, 2017
+ */
+public abstract class Account{
+  //instance variables
+  protected int accNum;
+  protected double balance;
+  
+  //stores the next account number to be used
+  private static int nextAccNum = 1000000;
+  
+  /**
+   * Creates a new account object with initial balance deposit and a unique account number
+   * determined by the class-level nextAccNum.
+   * @param deposit - the initial amount of money to be deposited
+   */
+  public Account( double deposit ){
+    balance = deposit;
+    accNum = nextAccNum;
+    nextAccNum++;
+  }
+  
+  /**
+   * Deposits a given amount of money into an account. This method is deemed final
+   * so that it cannot be overridden by the child classes.
+   * @param amount - the amount to be deposited
+   */
+  public final void deposit( double amount ){
+    balance += amount;
+  }
+  
+  /**
+   * Formats the account data in a string that is nice to read
+   * @return String describing an account
+   */
+  public String toString(){
+    DecimalFormat fmt = new DecimalFormat("0.##");
+    return "Account number: " + accNum + "\nBalance: $" + fmt.format( balance );
+  }
+  
+  /**
+   * Withdraws a given amount of money from an account
+   * @param amount - the amount of money to be withdrawn
+   */
+  public abstract void withdraw( double amount );
+}
